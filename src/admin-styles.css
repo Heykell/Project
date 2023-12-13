@@ -1,0 +1,116 @@
+/* Switcher as a menu admin */
+.yay-currency-menu-item-custom-fields {
+  margin-bottom: 16px;
+}
+.yay-currency-menu-item-custom-fields__title {
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.yay-currency-menu-item-custom-fields__field:not(:last-child) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.yay-currency-menu-item-custom-fields__field--checkbox {
+  margin: 0 6px 0 0 !important;
+}
+
+.yay-currency-menu-item-custom-field__field-group {
+  display: flex;
+  gap: 12px;
+}
+
+.yay-currency-menu-item-custom-fields__field--radio {
+  margin: 2px !important;
+}
+
+/* Switcher as a classic widget admin */
+.yay-currency-widget-custom-fields {
+  margin-bottom: 16px;
+}
+.yay-currency-widget-custom-fields__title {
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.yay-currency-widget-custom-fields__field:not(:last-child) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.yay-currency-widget-custom-fields__field--checkbox {
+  margin: 0 6px 0 0 !important;
+}
+
+.yay-currency-widget-custom-field__field-group {
+  display: flex;
+  gap: 12px;
+}
+
+.yay-currency-widget-custom-fields__field--radio {
+  margin: 2px !important;
+}
+
+/* Fixed price for simple product */
+.yay-currency-product-custom-fixed-prices-simple
+  .yay-currency-fixed-price-checkbox-wrapper {
+  align-items: center;
+  display: flex;
+  margin-left: 12px;
+}
+
+.yay-currency-product-custom-fixed-prices-simple .checkbox-sub-text {
+  display: block;
+  margin: 0 0 32px 12px;
+}
+
+.yay-currency-product-custom-fixed-prices-simple
+  .yay-currency-fixed-prices-input {
+  box-shadow: inset 4px 0 #ffc106;
+}
+
+/* Fixed price for variant product */
+.yay-currency-product-custom-fixed-prices-variable {
+  display: table;
+  width: 100%;
+}
+
+.yay-currency-fixed-price-text {
+  color: #1d2327;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.yay-currency-product-custom-fixed-prices-variable .checkbox-sub-text {
+  display: block;
+  margin: 0 0 12px 0;
+}
+
+.yay-currency-product-custom-fixed-prices-variable .form-row {
+  position: relative;
+}
+
+.yay-currency-product-custom-fixed-prices-variable
+  .form-row-first
+  label::before {
+  box-shadow: inset 4px 0 #ffc106;
+  content: '';
+  height: 70px;
+  left: -26px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+.yay-currency-fixed-price-checkbox-wrapper .form-field {
+  display: flex;
+  gap: 12px;
+}
+.wpml-compatible-table,
+.polylang-compatible-table {
+  margin-top: 20px;
+}
